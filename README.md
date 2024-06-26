@@ -664,7 +664,7 @@ void HardFault_Handler(void) {
     }
 }
 ````
-## Aurdino Code 
+## Aurdino Code to decode and send signal to minisquadron
 
 ```cpp
 #include <IRremote.h>
