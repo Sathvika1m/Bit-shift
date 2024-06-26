@@ -310,7 +310,7 @@ During the development of the traffic signal control system, we encountered a se
 ## Solution
 To address this issue, we implemented a key-based authentication mechanism. The solution involves transmitting a specific code as a key using an IR transmitter. Only if the received code matches the predefined key, the signal will be changed. This is achieved by using an Arduino Uno as the key decoder, which is connected to the Minisquadron microcontroller. The Arduino receives the IR signal, decodes the key, and communicates the result to the Minisquadron to control the traffic lights.
 
-
+![trafficsignal](https://github.com/Skandan-M-M/Bit-shift/assets/121422638/c97c743a-f992-4b22-bdc1-0acda2eeec99)
 
 ## Final updated code:
 ```c 
